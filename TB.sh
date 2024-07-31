@@ -2,7 +2,7 @@ clear
 
 echo -e " \e[91m  ______                                           ____                              "
 echo -e " \e[91m /_  __/__  _________ ___  __  ___  __            / __ )____ _____  ____  ___  _____ "
-echo -e " \e[91m  / / / _ \/ ___/ __ `__ \/ / / / |/_/  ______   / __  / __ `/ __ \/ __ \/ _ \/ ___/ "
+echo -e " \e[91m  / / / _ \/ ___/ __  __ \/ / / / |/_/  ______   / __  / __  / __ \/ __ \/ _ \/ ___/ "
 echo -e " \e[91m / / /  __/ /  / / / / / / /_/ />  <   /_____/  / /_/ / /_/ / / / / / / /  __/ /     "
 echo -e " \e[91m/_/  \___/_/  /_/ /_/ /_/\__,_/_/|_|           /_____/\__,_/_/ /_/_/ /_/\___/_/      "
                                                                                     
@@ -111,15 +111,15 @@ banner ( ) {
 
                   menu () {
                                   banner
-                                  printf "\n\033[1;91m[\033[0m1\033[1;91m]\033[1;92m Necessary Setup \n"
-                                  printf "\033[1;91m[\033[0m2\033[1;91m]\033[1;92m Zsh Setup\n"
-                                  printf "\033[1;91m[\033[0m3\033[1;91m]\033[1;92m Zsh Shell\n"
-                                  printf "\033[1;91m[\033[0m4\033[1;91m]\033[1;92m Bash Shell\n"
-                                  printf "\033[1;91m[\033[0m5\033[1;91m]\033[1;92m Zsh Banner\n"
-                                  printf "\033[1;91m[\033[0m6\033[1;91m]\033[1;92m Zsh Theme\n"
-                                  printf "\033[1;91m[\033[0m7\033[1;91m]\033[1;92m Highlight / AutoSuggest\n"
-                                  printf "\033[1;91m[\033[0m8\033[1;91m]\033[1;92m Update\n"
-                                  printf "\033[1;91m[\033[0m9\033[1;91m]\033[1;92m Exit\n\n\n"
+                                  printf "\n\033[1;91m[1] Necessary Setup \n"
+                                  printf "\033[1;91m[2] Zsh Setup\n"
+                                  printf "\033[1;91m[3] Zsh Shell\n"
+                                  printf "\033[1;91m[4] Bash Shell\n"
+                                  printf "\033[1;91m[5] Zsh Banner\n"
+                                  printf "\033[1;91m[6] Zsh Theme\n"
+                                  printf "\033[1;91m[7] Highlight / AutoSuggest\n"
+                                  printf "\033[1;91m[8] Update\n"
+                                  printf "\033[1;91m[0] Exit\n\n\n"
                                   
                                   selection
                                   }
